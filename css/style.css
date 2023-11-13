@@ -59,3 +59,27 @@
     height: 100%;
     background-color: #051E34;
 }
+
+.block_slidebar{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cont_top_bo_sli{
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: yellowgreen;
+}
+
+.cont_bot_bo_sli{
+    height: 50px;
+    justify-content: center;
+    padding: 10px;
+}
+.cont_top_bo_sli > div > span, .cont_bot_bo_sli > span{
+    color: #fff;
+}
