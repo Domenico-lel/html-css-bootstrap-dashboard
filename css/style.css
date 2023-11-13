@@ -80,6 +80,7 @@
     justify-content: center;
     padding: 10px;
 }
-.cont_top_bo_sli > div > span, .cont_bot_bo_sli > span{
+.cont_top_bo_sli > div > span, i, .cont_bot_bo_sli > span, i{
     color: #fff;
+    cursor: pointer;
 }
